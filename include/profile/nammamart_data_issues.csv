@@ -1,0 +1,1264 @@
+file,row_key,source_row,column,problem,quality_dimension,proposed_rule,severity
+customers.csv,customers.csv:row_30,30,customer_id,Duplicate customer_id,uniqueness,customer_id must be unique.,CRITICAL
+customers.csv,customers.csv:row_46,46,customer_id,Duplicate customer_id,uniqueness,customer_id must be unique.,CRITICAL
+customers.csv,customers.csv:row_108,108,customer_id,Duplicate customer_id,uniqueness,customer_id must be unique.,CRITICAL
+customers.csv,customers.csv:row_144,144,customer_id,Duplicate customer_id,uniqueness,customer_id must be unique.,CRITICAL
+customers.csv,customers.csv:row_156,156,customer_id,Duplicate customer_id,uniqueness,customer_id must be unique.,CRITICAL
+customers.csv,customers.csv:row_210,210,customer_id,Duplicate customer_id,uniqueness,customer_id must be unique.,CRITICAL
+customers.csv,customers.csv:row_215,215,customer_id,Duplicate customer_id,uniqueness,customer_id must be unique.,CRITICAL
+customers.csv,customers.csv:row_246,246,customer_id,Duplicate customer_id,uniqueness,customer_id must be unique.,CRITICAL
+customers.csv,customers.csv:row_266,266,customer_id,Duplicate customer_id,uniqueness,customer_id must be unique.,CRITICAL
+customers.csv,customers.csv:row_382,382,customer_id,Duplicate customer_id,uniqueness,customer_id must be unique.,CRITICAL
+customers.csv,customers.csv:row_17,17,email,Email is missing or malformed,validity,Warn unless email matches a basic address pattern.,WARNING
+customers.csv,customers.csv:row_24,24,email,Email is missing or malformed,validity,Warn unless email matches a basic address pattern.,WARNING
+customers.csv,customers.csv:row_79,79,email,Email is missing or malformed,validity,Warn unless email matches a basic address pattern.,WARNING
+customers.csv,customers.csv:row_81,81,email,Email is missing or malformed,validity,Warn unless email matches a basic address pattern.,WARNING
+customers.csv,customers.csv:row_82,82,email,Email is missing or malformed,validity,Warn unless email matches a basic address pattern.,WARNING
+customers.csv,customers.csv:row_92,92,email,Email is missing or malformed,validity,Warn unless email matches a basic address pattern.,WARNING
+customers.csv,customers.csv:row_199,199,email,Email is missing or malformed,validity,Warn unless email matches a basic address pattern.,WARNING
+customers.csv,customers.csv:row_240,240,email,Email is missing or malformed,validity,Warn unless email matches a basic address pattern.,WARNING
+customers.csv,customers.csv:row_337,337,email,Email is missing or malformed,validity,Warn unless email matches a basic address pattern.,WARNING
+customers.csv,customers.csv:row_344,344,email,Email is missing or malformed,validity,Warn unless email matches a basic address pattern.,WARNING
+customers.csv,customers.csv:row_365,365,email,Email is missing or malformed,validity,Warn unless email matches a basic address pattern.,WARNING
+customers.csv,customers.csv:row_390,390,email,Email is missing or malformed,validity,Warn unless email matches a basic address pattern.,WARNING
+customers.csv,customers.csv:row_60,60,phone,Phone is not a 10-digit number,validity,Warn unless phone contains exactly 10 digits.,WARNING
+customers.csv,customers.csv:row_117,117,phone,Phone is not a 10-digit number,validity,Warn unless phone contains exactly 10 digits.,WARNING
+customers.csv,customers.csv:row_141,141,phone,Phone is not a 10-digit number,validity,Warn unless phone contains exactly 10 digits.,WARNING
+customers.csv,customers.csv:row_153,153,phone,Phone is not a 10-digit number,validity,Warn unless phone contains exactly 10 digits.,WARNING
+customers.csv,customers.csv:row_172,172,phone,Phone is not a 10-digit number,validity,Warn unless phone contains exactly 10 digits.,WARNING
+customers.csv,customers.csv:row_234,234,phone,Phone is not a 10-digit number,validity,Warn unless phone contains exactly 10 digits.,WARNING
+customers.csv,customers.csv:row_250,250,phone,Phone is not a 10-digit number,validity,Warn unless phone contains exactly 10 digits.,WARNING
+customers.csv,customers.csv:row_38,38,pincode,Pincode is not six digits,validity,Warn unless pincode contains exactly six digits.,WARNING
+customers.csv,customers.csv:row_109,109,pincode,Pincode is not six digits,validity,Warn unless pincode contains exactly six digits.,WARNING
+customers.csv,customers.csv:row_151,151,pincode,Pincode is not six digits,validity,Warn unless pincode contains exactly six digits.,WARNING
+customers.csv,customers.csv:row_3,3,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_4,4,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_5,5,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_6,6,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_7,7,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_8,8,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_9,9,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_10,10,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_11,11,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_12,12,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_13,13,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_14,14,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_15,15,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_16,16,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_17,17,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_18,18,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_19,19,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_20,20,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_21,21,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_22,22,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_23,23,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_24,24,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_25,25,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_26,26,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_27,27,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_28,28,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_29,29,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_30,30,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_31,31,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_32,32,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_33,33,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_34,34,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_35,35,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_36,36,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_37,37,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_38,38,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_39,39,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_41,41,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_42,42,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_44,44,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_45,45,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_46,46,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_47,47,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_48,48,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_49,49,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_50,50,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_51,51,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_52,52,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_53,53,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_54,54,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_55,55,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_56,56,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_57,57,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_58,58,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_59,59,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_60,60,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_61,61,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_62,62,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_63,63,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_64,64,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_65,65,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_66,66,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_67,67,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_68,68,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_69,69,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_70,70,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_71,71,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_72,72,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_73,73,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_74,74,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_75,75,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_76,76,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_77,77,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_78,78,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_79,79,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_80,80,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_81,81,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_82,82,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_83,83,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_84,84,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_85,85,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_86,86,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_87,87,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_88,88,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_89,89,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_90,90,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_91,91,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_92,92,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_93,93,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_94,94,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_95,95,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_96,96,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_97,97,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_98,98,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_99,99,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_100,100,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_101,101,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_102,102,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_103,103,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_104,104,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_105,105,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_106,106,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_107,107,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_108,108,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_109,109,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_110,110,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_111,111,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_112,112,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_113,113,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_114,114,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_115,115,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_116,116,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_117,117,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_118,118,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_119,119,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_120,120,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_121,121,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_122,122,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_123,123,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_124,124,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_125,125,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_126,126,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_127,127,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_128,128,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_129,129,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_130,130,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_131,131,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_132,132,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_133,133,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_134,134,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_135,135,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_136,136,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_137,137,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_138,138,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_139,139,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_140,140,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_141,141,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_142,142,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_143,143,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_144,144,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_145,145,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_146,146,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_147,147,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_148,148,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_149,149,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_150,150,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_151,151,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_152,152,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_153,153,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_154,154,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_155,155,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_156,156,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_157,157,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_158,158,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_159,159,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_160,160,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_161,161,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_162,162,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_163,163,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_164,164,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_165,165,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_166,166,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_167,167,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_168,168,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_170,170,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_171,171,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_172,172,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_173,173,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_174,174,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_175,175,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_176,176,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_177,177,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_178,178,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_179,179,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_180,180,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_181,181,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_182,182,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_183,183,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_184,184,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_185,185,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_186,186,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_187,187,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_188,188,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_189,189,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_190,190,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_191,191,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_192,192,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_193,193,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_194,194,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_195,195,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_196,196,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_197,197,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_198,198,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_199,199,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_200,200,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_201,201,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_202,202,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_203,203,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_204,204,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_205,205,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_206,206,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_207,207,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_208,208,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_209,209,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_210,210,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_211,211,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_212,212,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_213,213,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_214,214,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_215,215,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_216,216,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_217,217,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_218,218,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_219,219,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_220,220,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_221,221,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_222,222,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_223,223,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_224,224,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_225,225,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_226,226,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_227,227,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_228,228,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_229,229,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_230,230,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_231,231,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_232,232,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_233,233,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_234,234,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_235,235,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_236,236,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_237,237,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_238,238,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_239,239,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_240,240,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_241,241,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_242,242,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_243,243,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_244,244,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_245,245,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_246,246,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_247,247,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_248,248,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_249,249,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_250,250,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_251,251,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_252,252,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_253,253,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_254,254,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_255,255,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_256,256,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_257,257,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_258,258,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_259,259,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_260,260,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_261,261,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_262,262,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_263,263,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_264,264,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_265,265,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_266,266,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_267,267,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_268,268,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_269,269,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_270,270,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_271,271,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_272,272,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_273,273,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_274,274,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_275,275,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_276,276,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_277,277,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_278,278,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_279,279,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_280,280,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_281,281,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_282,282,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_283,283,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_284,284,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_285,285,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_286,286,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_287,287,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_288,288,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_289,289,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_290,290,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_291,291,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_292,292,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_293,293,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_294,294,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_295,295,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_296,296,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_297,297,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_298,298,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_299,299,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_300,300,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_301,301,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_302,302,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_303,303,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_304,304,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_305,305,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_306,306,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_307,307,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_308,308,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_309,309,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_310,310,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_311,311,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_312,312,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_313,313,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_314,314,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_315,315,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_316,316,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_317,317,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_318,318,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_319,319,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_320,320,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_321,321,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_322,322,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_323,323,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_324,324,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_325,325,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_326,326,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_327,327,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_328,328,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_329,329,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_331,331,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_332,332,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_333,333,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_334,334,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_335,335,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_336,336,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_337,337,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_338,338,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_339,339,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_340,340,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_341,341,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_342,342,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_343,343,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_344,344,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_345,345,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_346,346,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_347,347,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_348,348,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_349,349,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_350,350,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_351,351,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_352,352,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_353,353,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_354,354,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_355,355,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_356,356,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_357,357,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_358,358,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_359,359,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_360,360,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_361,361,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_362,362,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_363,363,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_364,364,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_365,365,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_366,366,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_367,367,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_368,368,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_369,369,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_370,370,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_371,371,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_372,372,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_373,373,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_374,374,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_375,375,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_376,376,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_377,377,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_378,378,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_379,379,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_380,380,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_381,381,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_382,382,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_383,383,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_384,384,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_385,385,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_386,386,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_387,387,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_388,388,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_389,389,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_390,390,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_391,391,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_392,392,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_393,393,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_394,394,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_395,395,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_396,396,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_397,397,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_398,398,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_399,399,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_400,400,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_401,401,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_402,402,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_403,403,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_404,404,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_405,405,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_406,406,loyalty_tier,loyalty_tier casing is inconsistent,consistency,Standardise loyalty_tier to uppercase.,WARNING
+customers.csv,customers.csv:row_86,86,signup_date,signup_date is in the future,timeliness,signup_date must not be later than the current date.,CRITICAL
+customers.csv,customers.csv:row_197,197,signup_date,signup_date is in the future,timeliness,signup_date must not be later than the current date.,CRITICAL
+customers.csv,customers.csv:row_239,239,signup_date,signup_date is in the future,timeliness,signup_date must not be later than the current date.,CRITICAL
+products.csv,P0051,52,category,product_id or category is missing,completeness,Product key and category are required.,CRITICAL
+products.csv,P0060,61,category,product_id or category is missing,completeness,Product key and category are required.,CRITICAL
+products.csv,P0068,69,category,product_id or category is missing,completeness,Product key and category are required.,CRITICAL
+products.csv,P0030,31,product_id,Duplicate product_id,uniqueness,product_id must be unique.,CRITICAL
+products.csv,P0140,141,product_id,Duplicate product_id,uniqueness,product_id must be unique.,CRITICAL
+products.csv,P0030,152,product_id,Duplicate product_id,uniqueness,product_id must be unique.,CRITICAL
+products.csv,P0140,153,product_id,Duplicate product_id,uniqueness,product_id must be unique.,CRITICAL
+products.csv,P0109,110,mrp,mrp is missing or not positive,accuracy,mrp must be greater than zero.,CRITICAL
+products.csv,P0019,20,cost_price,cost_price exceeds mrp,accuracy,Warn when cost_price exceeds mrp; business owner must confirm promotions/markdowns.,WARNING
+products.csv,P0073,74,cost_price,cost_price exceeds mrp,accuracy,Warn when cost_price exceeds mrp; business owner must confirm promotions/markdowns.,WARNING
+products.csv,P0074,75,cost_price,cost_price exceeds mrp,accuracy,Warn when cost_price exceeds mrp; business owner must confirm promotions/markdowns.,WARNING
+products.csv,P0109,110,cost_price,cost_price exceeds mrp,accuracy,Warn when cost_price exceeds mrp; business owner must confirm promotions/markdowns.,WARNING
+products.csv,P0117,118,cost_price,cost_price exceeds mrp,accuracy,Warn when cost_price exceeds mrp; business owner must confirm promotions/markdowns.,WARNING
+stores.csv,S07,8,zone,"store_id, store_name, or zone is missing",completeness,"Store key, name, and zone are required.",CRITICAL
+stores.csv,S12,13,capacity_orders_per_day,Store capacity is missing or not positive,accuracy,capacity_orders_per_day must be greater than zero.,CRITICAL
+orders.csv,ORD002255,36,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD000701,251,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD000997,550,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD000580,635,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD002019,821,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD002262,940,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD002149,970,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD002367,989,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD001332,1192,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD001918,1342,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD002156,1389,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD000583,1399,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD000790,1461,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD000764,1583,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD002219,1597,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD001532,1814,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD000022,1823,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD001373,2150,customer_id,Missing required customer_id,completeness,customer_id must not be blank.,CRITICAL
+orders.csv,ORD001462,7,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001326,239,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001462,271,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001434,357,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD000783,446,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001239,734,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001692,782,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001870,1025,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001441,1115,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001441,1121,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD002129,1145,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001549,1152,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001692,1318,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD002129,1642,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001110,1771,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD000539,2029,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001239,2059,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD000783,2088,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD000539,2146,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001434,2182,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001326,2204,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001549,2213,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001870,2328,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD001110,2395,order_id,Duplicate order_id within this source file,uniqueness,order_id must be unique within each source export.,CRITICAL
+orders.csv,ORD000500,747,order_status,order_status is not an allowed value,validity,"Use DELIVERED, CANCELLED, or RETURNED.",CRITICAL
+orders.csv,ORD001970,2027,order_status,order_status is not an allowed value,validity,"Use DELIVERED, CANCELLED, or RETURNED.",CRITICAL
+orders.csv,ORD001637,2129,order_status,order_status is not an allowed value,validity,"Use DELIVERED, CANCELLED, or RETURNED.",CRITICAL
+orders.csv,ORD001812,48,payment_mode,payment_mode is not an allowed value,validity,"Use UPI, Card, Cash on Delivery, or Wallet.",CRITICAL
+orders.csv,ORD001414,563,payment_mode,payment_mode is not an allowed value,validity,"Use UPI, Card, Cash on Delivery, or Wallet.",CRITICAL
+orders.csv,ORD000403,273,order_ts,order_ts is missing or cannot be parsed,validity,order_ts must parse as a timestamp.,CRITICAL
+orders.csv,ORD001610,513,order_ts,order_ts is missing or cannot be parsed,validity,order_ts must parse as a timestamp.,CRITICAL
+orders.csv,ORD000534,825,order_ts,order_ts is missing or cannot be parsed,validity,order_ts must parse as a timestamp.,CRITICAL
+orders.csv,ORD000362,899,order_ts,order_ts is missing or cannot be parsed,validity,order_ts must parse as a timestamp.,CRITICAL
+orders.csv,ORD002012,1100,order_ts,order_ts is missing or cannot be parsed,validity,order_ts must parse as a timestamp.,CRITICAL
+orders.csv,ORD000946,2114,order_ts,order_ts is missing or cannot be parsed,validity,order_ts must parse as a timestamp.,CRITICAL
+orders.csv,ORD000469,127,quantity,quantity must be a positive number,accuracy,quantity must be greater than zero.,CRITICAL
+orders.csv,ORD001296,801,quantity,quantity must be a positive number,accuracy,quantity must be greater than zero.,CRITICAL
+orders.csv,ORD001459,816,quantity,quantity must be a positive number,accuracy,quantity must be greater than zero.,CRITICAL
+orders.csv,ORD000867,860,quantity,quantity must be a positive number,accuracy,quantity must be greater than zero.,CRITICAL
+orders.csv,ORD000462,1021,quantity,quantity must be a positive number,accuracy,quantity must be greater than zero.,CRITICAL
+orders.csv,ORD002360,1032,quantity,quantity must be a positive number,accuracy,quantity must be greater than zero.,CRITICAL
+orders.csv,ORD001724,1198,quantity,quantity must be a positive number,accuracy,quantity must be greater than zero.,CRITICAL
+orders.csv,ORD000099,1429,quantity,quantity must be a positive number,accuracy,quantity must be greater than zero.,CRITICAL
+orders.csv,ORD001124,1821,quantity,quantity must be a positive number,accuracy,quantity must be greater than zero.,CRITICAL
+orders.csv,ORD001384,2365,quantity,quantity must be a positive number,accuracy,quantity must be greater than zero.,CRITICAL
+orders.csv,ORD002103,66,discount_pct,discount_pct is outside 0-100,accuracy,discount_pct must be between 0 and 100.,CRITICAL
+orders.csv,ORD001468,2131,discount_pct,discount_pct is outside 0-100,accuracy,discount_pct must be between 0 and 100.,CRITICAL
+orders.csv,ORD001237,2292,discount_pct,discount_pct is outside 0-100,accuracy,discount_pct must be between 0 and 100.,CRITICAL
+orders.csv,ORD002103,66,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD002305,312,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD002004,480,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD000845,771,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD000964,812,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD002298,1027,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD002031,1029,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD000801,1285,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD000880,1439,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD001274,1641,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD000677,1644,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD002223,1717,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD002128,1720,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD001624,1748,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD002244,1903,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD001755,1927,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD001468,2131,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD001237,2292,order_amount,order_amount does not match discounted quantity * price,accuracy,order_amount must equal rounded quantity × unit_price × (1-discount_pct/100).,CRITICAL
+orders.csv,ORD001554,162,delivery_minutes,DELIVERED order has no delivery_minutes,completeness,DELIVERED orders require delivery_minutes.,CRITICAL
+orders.csv,ORD001800,253,delivery_minutes,DELIVERED order has no delivery_minutes,completeness,DELIVERED orders require delivery_minutes.,CRITICAL
+orders.csv,ORD000731,652,delivery_minutes,DELIVERED order has no delivery_minutes,completeness,DELIVERED orders require delivery_minutes.,CRITICAL
+orders.csv,ORD001277,716,delivery_minutes,DELIVERED order has no delivery_minutes,completeness,DELIVERED orders require delivery_minutes.,CRITICAL
+orders.csv,ORD000326,1090,delivery_minutes,DELIVERED order has no delivery_minutes,completeness,DELIVERED orders require delivery_minutes.,CRITICAL
+orders.csv,ORD001515,1524,delivery_minutes,DELIVERED order has no delivery_minutes,completeness,DELIVERED orders require delivery_minutes.,CRITICAL
+orders.csv,ORD002229,1826,delivery_minutes,DELIVERED order has no delivery_minutes,completeness,DELIVERED orders require delivery_minutes.,CRITICAL
+orders.csv,ORD000878,2035,delivery_minutes,DELIVERED order has no delivery_minutes,completeness,DELIVERED orders require delivery_minutes.,CRITICAL
+orders.csv,ORD001037,275,delivery_minutes,DELIVERED order delivery time is at least 120 minutes,accuracy,delivery_minutes must be below 120.,CRITICAL
+orders.csv,ORD002101,511,delivery_minutes,DELIVERED order delivery time is at least 120 minutes,accuracy,delivery_minutes must be below 120.,CRITICAL
+orders.csv,ORD000455,626,delivery_minutes,DELIVERED order delivery time is at least 120 minutes,accuracy,delivery_minutes must be below 120.,CRITICAL
+orders.csv,ORD001104,2075,delivery_minutes,DELIVERED order delivery time is at least 120 minutes,accuracy,delivery_minutes must be below 120.,CRITICAL
+orders.csv,ORD000020,2279,delivery_minutes,DELIVERED order delivery time is at least 120 minutes,accuracy,delivery_minutes must be below 120.,CRITICAL
+orders.csv,ORD000424,2368,delivery_minutes,DELIVERED order delivery time is at least 120 minutes,accuracy,delivery_minutes must be below 120.,CRITICAL
+orders.csv,ORD001334,16,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001892,25,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002255,36,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000039,152,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001101,185,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001964,186,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001409,187,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002167,195,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000337,242,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000701,251,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002061,307,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000219,466,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001467,471,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002101,511,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000997,550,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000328,555,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002351,577,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002344,588,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000580,635,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001651,762,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000231,792,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001553,798,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001955,808,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001301,810,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002019,821,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000745,824,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002262,940,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001128,953,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002371,966,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002149,970,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002367,989,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002298,1027,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002360,1032,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000556,1036,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000280,1061,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001088,1155,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001332,1192,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001107,1260,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001918,1342,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002156,1389,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000583,1399,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000242,1432,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000151,1440,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002116,1443,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000790,1461,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000399,1483,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000768,1549,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001355,1577,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000764,1583,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002035,1587,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002219,1597,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000238,1615,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001274,1641,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001928,1643,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001034,1652,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001356,1769,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001532,1814,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000022,1823,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002096,1841,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001140,1896,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD002008,1914,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000912,2054,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000046,2091,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001373,2150,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD001906,2370,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders.csv,ORD000520,17,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000894,62,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000398,68,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001113,77,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001972,79,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001295,116,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001344,136,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002192,138,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002081,180,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000986,207,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001786,210,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000041,243,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001726,293,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001058,305,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001365,322,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000331,342,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000459,368,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000957,392,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000023,424,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000773,459,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001610,513,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000245,559,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001685,590,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000352,596,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001500,631,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001922,643,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001272,725,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001702,775,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002372,779,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001459,816,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002338,840,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002158,907,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001776,918,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000941,958,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001687,969,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001754,981,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001360,983,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002390,985,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002159,1003,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000765,1009,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000443,1018,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001870,1025,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002087,1041,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002301,1065,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001214,1077,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001748,1117,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000616,1123,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000855,1125,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000070,1218,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000697,1222,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002190,1224,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001810,1238,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002285,1242,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001193,1273,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001674,1314,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001646,1321,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001994,1326,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000871,1347,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000834,1359,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000028,1362,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001606,1366,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001622,1367,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000236,1400,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001846,1413,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000472,1419,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000130,1427,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001331,1446,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000819,1454,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002023,1463,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001385,1469,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000789,1546,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000725,1554,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000822,1576,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000121,1634,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000596,1640,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002174,1670,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002062,1681,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000663,1689,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000541,1704,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001525,1739,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001106,1744,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000557,1756,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001110,1771,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000134,1834,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001052,1878,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000965,1954,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001330,1968,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002179,1982,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000433,2003,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000446,2005,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000298,2045,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000052,2076,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001095,2090,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000838,2093,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001508,2139,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000250,2174,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000673,2223,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002098,2227,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000445,2241,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD002239,2288,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001870,2328,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD001110,2395,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000691,2404,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders.csv,ORD000385,9,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002073,10,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001334,16,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000682,21,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000164,28,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001898,34,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002196,51,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001758,91,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001938,94,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000975,105,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000348,108,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000891,109,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001295,116,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002192,138,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000027,146,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000189,149,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001601,153,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001701,167,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000999,178,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001971,191,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002308,198,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000152,211,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001736,214,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002366,227,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001326,239,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000885,250,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002235,252,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000928,254,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001558,256,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000103,263,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002386,279,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002324,285,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000777,286,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000870,295,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001197,299,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001944,301,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001739,302,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000138,306,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002259,318,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000061,320,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002334,343,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000780,356,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001089,363,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001352,378,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000329,381,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000957,392,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000854,401,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001650,402,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001036,416,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000350,419,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001501,433,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001325,453,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001529,464,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000332,467,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000710,481,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000073,485,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001915,508,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001607,514,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001947,520,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001207,527,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000384,529,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001323,535,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001414,563,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001167,568,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002032,573,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002284,611,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000478,615,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002397,632,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000470,646,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000984,665,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001762,670,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001912,674,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001094,676,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000394,678,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001741,682,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000619,685,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001772,686,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001673,689,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000258,692,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000290,696,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001565,701,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000077,706,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001573,718,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002148,731,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001799,735,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001235,737,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001046,742,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002357,750,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000909,756,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001471,764,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002210,765,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000845,771,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001616,774,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000098,787,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002294,796,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000964,812,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002019,821,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002246,830,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001492,831,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001869,832,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001926,836,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002338,840,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001100,845,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000171,846,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001840,847,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001733,867,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001834,881,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001542,884,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002199,887,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002158,907,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001349,912,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001329,921,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001238,930,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002164,932,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000571,936,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002262,940,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000941,958,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002149,970,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001362,1002,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002398,1007,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001814,1010,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001275,1011,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001744,1015,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000443,1018,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001747,1019,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000498,1026,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001498,1048,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000211,1063,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001255,1064,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001604,1070,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001026,1076,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001214,1077,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001080,1094,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002012,1100,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002264,1108,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000415,1109,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001844,1112,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000970,1130,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001857,1157,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000014,1182,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001686,1185,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000035,1191,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000308,1204,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001887,1207,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000222,1208,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001233,1211,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001668,1216,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000746,1233,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001020,1239,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001568,1256,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000017,1257,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001107,1260,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000281,1261,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001908,1262,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000656,1274,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000769,1276,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000285,1282,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001093,1297,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000391,1299,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000648,1300,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002318,1304,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000595,1307,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000625,1311,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001142,1325,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000072,1334,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002069,1335,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001853,1338,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000484,1349,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001131,1350,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001252,1355,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000519,1361,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001606,1366,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001560,1368,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000289,1373,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001240,1391,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000309,1402,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000278,1405,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002380,1411,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001392,1418,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000270,1422,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002193,1425,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001380,1436,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001797,1451,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000715,1462,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000107,1472,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001880,1484,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000288,1485,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001211,1488,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000315,1489,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000866,1491,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000158,1512,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001353,1514,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001091,1519,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002154,1537,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001225,1542,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002374,1550,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000954,1553,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000725,1554,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001974,1560,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000987,1563,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000764,1583,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001782,1593,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001154,1595,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001709,1600,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000720,1604,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000167,1618,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002359,1620,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001194,1624,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000566,1628,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000532,1630,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000121,1634,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002347,1636,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000782,1639,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001274,1641,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000430,1645,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001034,1652,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001727,1655,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001712,1665,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002174,1670,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000575,1678,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001321,1682,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001169,1683,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002206,1700,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001670,1705,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001544,1712,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000797,1728,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001106,1744,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001411,1746,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001012,1749,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000615,1751,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001886,1754,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000717,1762,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000030,1764,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000221,1765,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001941,1766,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001356,1769,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001818,1786,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002213,1807,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002282,1816,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001847,1817,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002176,1832,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001156,1837,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001495,1843,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001628,1851,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001507,1854,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001653,1865,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000754,1883,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000892,1887,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000586,1890,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002180,1898,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000527,1904,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000781,1925,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000301,1928,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000686,1931,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001081,1932,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001824,1936,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002126,1955,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000458,1958,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000076,1962,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001375,1964,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001796,1971,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000812,1974,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001217,1995,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000488,1998,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002356,2017,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000453,2018,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001172,2020,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001085,2033,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000878,2035,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001725,2067,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000810,2089,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000029,2099,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001640,2116,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000945,2122,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000796,2126,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000860,2130,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002110,2147,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001773,2148,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000136,2156,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000990,2158,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001627,2170,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001368,2177,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001953,2183,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001750,2196,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001326,2204,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002384,2209,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001804,2210,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002067,2216,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000961,2218,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001781,2225,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002098,2227,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002162,2228,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000445,2241,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002170,2243,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001649,2244,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001763,2254,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001688,2258,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001663,2259,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000643,2269,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001370,2271,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001878,2280,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001874,2296,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001920,2318,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001122,2329,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001472,2340,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001437,2349,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001005,2351,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000712,2352,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002320,2358,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001837,2364,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000424,2368,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000374,2376,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD001307,2390,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002376,2392,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000274,2398,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD000347,2411,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders.csv,ORD002119,140,order_ts,order_ts is in the future,timeliness,order_ts must not be later than the current time.,CRITICAL
+orders.csv,ORD001121,426,order_ts,order_ts is in the future,timeliness,order_ts must not be later than the current time.,CRITICAL
+orders.csv,ORD001765,1122,order_ts,order_ts is in the future,timeliness,order_ts must not be later than the current time.,CRITICAL
+orders.csv,ORD001965,1607,order_ts,order_ts is in the future,timeliness,order_ts must not be later than the current time.,CRITICAL
+orders.csv,ORD001725,2067,order_ts,order_ts is in the future,timeliness,order_ts must not be later than the current time.,CRITICAL
+orders_2026-10-01_increment.csv,ORD000337,5,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002486,116,customer_id,customer_id does not exist in the accepted customers dimension,consistency,customer_id must reference a valid unique customers key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD000822,8,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002432,42,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002480,49,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002516,52,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002498,96,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002542,98,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002465,127,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002544,134,product_id,product_id does not exist in the accepted products dimension,consistency,product_id must reference a valid unique products key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD000017,2,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD000332,4,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002410,18,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002537,31,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002452,38,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002523,54,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002507,89,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002506,102,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002525,137,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002484,143,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002524,145,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002502,152,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD002462,160,store_id,store_id does not exist in the accepted stores dimension,consistency,store_id must reference a valid unique stores key.,CRITICAL
+orders_2026-10-01_increment.csv,ORD000017,2,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD000271,3,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD000332,4,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD000337,5,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD000584,6,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD000708,7,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD000822,8,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD001025,9,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD001067,10,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD001990,11,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002505,12,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002431,13,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002433,14,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002413,15,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002423,16,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002425,17,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002410,18,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002417,19,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002445,20,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002412,21,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002444,22,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002416,23,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002409,24,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002471,25,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002545,26,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002527,27,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002459,28,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002483,29,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002531,30,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002537,31,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002534,32,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002469,33,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002540,34,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002519,35,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002436,36,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002503,37,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002452,38,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002466,39,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002476,40,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002407,41,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002432,42,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002453,43,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002504,44,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002547,45,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002406,46,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002447,47,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002408,48,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002480,49,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002474,50,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002512,51,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002516,52,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002449,53,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002523,54,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002434,55,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002482,56,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002510,57,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002414,58,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002490,59,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002530,60,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002419,61,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002441,62,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002511,63,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002539,64,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002472,65,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002401,66,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002485,67,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002513,68,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002497,69,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002495,70,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002463,71,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002473,72,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002442,73,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002403,74,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002491,75,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002496,76,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002481,77,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002521,78,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002535,79,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002489,80,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002468,81,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002529,82,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002440,83,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002488,84,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002479,85,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002435,86,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002546,87,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002500,88,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002507,89,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002426,90,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002448,91,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002418,92,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002494,93,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002508,94,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002493,95,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002498,96,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002450,97,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002542,98,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002518,99,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002428,100,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002475,101,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002506,102,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002509,103,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002411,104,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002424,105,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002526,106,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002478,107,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002517,108,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002464,109,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002455,110,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002467,111,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002487,112,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002477,113,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002446,114,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002415,115,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002486,116,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002520,117,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002515,118,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002522,119,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002402,120,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002458,121,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002543,122,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002550,123,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002528,124,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002499,125,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002457,126,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002465,127,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002430,128,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002532,129,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002460,130,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002549,131,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002538,132,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002429,133,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002544,134,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002438,135,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002533,136,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002525,137,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002470,138,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002421,139,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002404,140,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002437,141,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002427,142,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002484,143,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002454,144,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002524,145,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002451,146,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002420,147,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002501,148,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002541,149,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002536,150,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002514,151,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002502,152,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002443,153,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002548,154,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002405,155,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002439,156,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002422,157,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002456,158,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002492,159,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002462,160,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+orders_2026-10-01_increment.csv,ORD002461,161,order_ts,Latest order is more than one day old,timeliness,Warn when source freshness exceeds one day.,WARNING
+payments.csv,PAY0001651,21,payment_id,Duplicate payment_id,uniqueness,payment_id must be unique.,CRITICAL
+payments.csv,PAY0000755,147,payment_id,Duplicate payment_id,uniqueness,payment_id must be unique.,CRITICAL
+payments.csv,PAY0000509,263,payment_id,Duplicate payment_id,uniqueness,payment_id must be unique.,CRITICAL
+payments.csv,PAY0000509,1032,payment_id,Duplicate payment_id,uniqueness,payment_id must be unique.,CRITICAL
+payments.csv,PAY0002000,1348,payment_id,Duplicate payment_id,uniqueness,payment_id must be unique.,CRITICAL
+payments.csv,PAY0001651,1855,payment_id,Duplicate payment_id,uniqueness,payment_id must be unique.,CRITICAL
+payments.csv,PAY0002000,1877,payment_id,Duplicate payment_id,uniqueness,payment_id must be unique.,CRITICAL
+payments.csv,PAY0000755,2119,payment_id,Duplicate payment_id,uniqueness,payment_id must be unique.,CRITICAL
+payments.csv,PAY0000522,1454,payment_mode,payment_mode is not an allowed value,validity,"Use UPI, Card, Cash on Delivery, or Wallet.",CRITICAL
+payments.csv,PAY0000044,1625,payment_mode,payment_mode is not an allowed value,validity,"Use UPI, Card, Cash on Delivery, or Wallet.",CRITICAL
+payments.csv,PAY0001568,71,amount_paid,amount_paid is missing or negative,accuracy,amount_paid must be a non-negative number.,CRITICAL
+payments.csv,PAY0002175,346,amount_paid,amount_paid is missing or negative,accuracy,amount_paid must be a non-negative number.,CRITICAL
+payments.csv,PAY0000751,434,amount_paid,amount_paid is missing or negative,accuracy,amount_paid must be a non-negative number.,CRITICAL
+payments.csv,PAY0000944,529,amount_paid,amount_paid is missing or negative,accuracy,amount_paid must be a non-negative number.,CRITICAL
+payments.csv,PAY0000791,653,amount_paid,amount_paid is missing or negative,accuracy,amount_paid must be a non-negative number.,CRITICAL
+payments.csv,PAY0000737,2173,amount_paid,amount_paid is missing or negative,accuracy,amount_paid must be a non-negative number.,CRITICAL
+payments.csv,PAY0002219,188,order_id,Payment references an unknown order_id,consistency,Payment order_id must exist in the orders export.,CRITICAL
+payments.csv,PAY0002220,689,order_id,Payment references an unknown order_id,consistency,Payment order_id must exist in the orders export.,CRITICAL
+payments.csv,PAY0002223,966,order_id,Payment references an unknown order_id,consistency,Payment order_id must exist in the orders export.,CRITICAL
+payments.csv,PAY0002221,1149,order_id,Payment references an unknown order_id,consistency,Payment order_id must exist in the orders export.,CRITICAL
+payments.csv,PAY0002224,1447,order_id,Payment references an unknown order_id,consistency,Payment order_id must exist in the orders export.,CRITICAL
+payments.csv,PAY0002218,1790,order_id,Payment references an unknown order_id,consistency,Payment order_id must exist in the orders export.,CRITICAL
+payments.csv,PAY0002222,1974,order_id,Payment references an unknown order_id,consistency,Payment order_id must exist in the orders export.,CRITICAL
+payments.csv,PAY0002217,2216,order_id,Payment references an unknown order_id,consistency,Payment order_id must exist in the orders export.,CRITICAL
+payments.csv,PAY0001568,71,amount_paid,SUCCESS payment amount differs from its order amount,consistency,A SUCCESS payment must equal the current order_amount.,CRITICAL
+payments.csv,PAY0000354,306,amount_paid,SUCCESS payment amount differs from its order amount,consistency,A SUCCESS payment must equal the current order_amount.,CRITICAL
+payments.csv,PAY0000779,431,amount_paid,SUCCESS payment amount differs from its order amount,consistency,A SUCCESS payment must equal the current order_amount.,CRITICAL
+payments.csv,PAY0000323,697,amount_paid,SUCCESS payment amount differs from its order amount,consistency,A SUCCESS payment must equal the current order_amount.,CRITICAL
+payments.csv,PAY0001167,768,amount_paid,SUCCESS payment amount differs from its order amount,consistency,A SUCCESS payment must equal the current order_amount.,CRITICAL
+payments.csv,PAY0001499,772,amount_paid,SUCCESS payment amount differs from its order amount,consistency,A SUCCESS payment must equal the current order_amount.,CRITICAL
+payments.csv,PAY0000909,933,amount_paid,SUCCESS payment amount differs from its order amount,consistency,A SUCCESS payment must equal the current order_amount.,CRITICAL
+payments.csv,PAY0000586,994,amount_paid,SUCCESS payment amount differs from its order amount,consistency,A SUCCESS payment must equal the current order_amount.,CRITICAL
+payments.csv,PAY0000161,1110,amount_paid,SUCCESS payment amount differs from its order amount,consistency,A SUCCESS payment must equal the current order_amount.,CRITICAL
+payments.csv,PAY0002183,1411,amount_paid,SUCCESS payment amount differs from its order amount,consistency,A SUCCESS payment must equal the current order_amount.,CRITICAL
+payments.csv,PAY0000044,1625,amount_paid,SUCCESS payment amount differs from its order amount,consistency,A SUCCESS payment must equal the current order_amount.,CRITICAL
+payments.csv,PAY0001813,1651,amount_paid,SUCCESS payment amount differs from its order amount,consistency,A SUCCESS payment must equal the current order_amount.,CRITICAL
+payments.csv,PAY0001139,1924,amount_paid,SUCCESS payment amount differs from its order amount,consistency,A SUCCESS payment must equal the current order_amount.,CRITICAL
+payments.csv,PAY0000429,1984,amount_paid,SUCCESS payment amount differs from its order amount,consistency,A SUCCESS payment must equal the current order_amount.,CRITICAL
+payments.csv,PAY0000396,146,payment_ts,payment_ts is in the future,timeliness,payment_ts must not be later than the current time.,CRITICAL
+payments.csv,PAY0000127,309,payment_ts,payment_ts is in the future,timeliness,payment_ts must not be later than the current time.,CRITICAL
+payments.csv,PAY0001908,411,payment_ts,payment_ts is in the future,timeliness,payment_ts must not be later than the current time.,CRITICAL
+payments.csv,PAY0001037,988,payment_ts,payment_ts is in the future,timeliness,payment_ts must not be later than the current time.,CRITICAL
+payments.csv,PAY0001488,1640,payment_ts,payment_ts is in the future,timeliness,payment_ts must not be later than the current time.,CRITICAL

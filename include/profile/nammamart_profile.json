@@ -1,0 +1,660 @@
+{
+  "profiled_at_utc": "2026-10-22T07:16:20.500342+00:00",
+  "data_directory": "C:\\IIT_Roorkie_CEC_Futurenece_Data_Pipeline_to_ML_Model\\include\\data\\nammamart",
+  "total_rows_including_increment": 5372,
+  "files": {
+    "orders": {
+      "source_file": "orders.csv",
+      "rows": 2412,
+      "columns": [
+        "order_id",
+        "order_ts",
+        "customer_id",
+        "store_id",
+        "product_id",
+        "quantity",
+        "unit_price",
+        "discount_pct",
+        "order_amount",
+        "payment_mode",
+        "order_status",
+        "channel",
+        "delivery_minutes"
+      ],
+      "blank_values_by_column": {
+        "order_ts": 1,
+        "customer_id": 18,
+        "delivery_minutes": 164
+      },
+      "duplicate_key_rows": 24,
+      "duplicate_key_values": [
+        "ORD000539",
+        "ORD000783",
+        "ORD001110",
+        "ORD001239",
+        "ORD001326",
+        "ORD001434",
+        "ORD001441",
+        "ORD001462",
+        "ORD001549",
+        "ORD001692",
+        "ORD001870",
+        "ORD002129"
+      ],
+      "duplicate_key_values_redacted": false,
+      "numeric_ranges": {
+        "quantity": {
+          "min": -3.0,
+          "max": 5.0,
+          "invalid_or_blank": 0
+        },
+        "unit_price": {
+          "min": 10.0,
+          "max": 883.0,
+          "invalid_or_blank": 0
+        },
+        "discount_pct": {
+          "min": 0.0,
+          "max": 250.0,
+          "invalid_or_blank": 0
+        },
+        "order_amount": {
+          "min": -1593.0,
+          "max": 9576.0,
+          "invalid_or_blank": 0
+        },
+        "delivery_minutes": {
+          "min": 8.0,
+          "max": 1440.0,
+          "invalid_or_blank": 164
+        }
+      },
+      "date_ranges": {
+        "order_ts": {
+          "min": "2026-09-01 06:30:15",
+          "max": "2027-01-01 09:00:00",
+          "invalid_or_blank": 6
+        }
+      },
+      "distinct_categories": {
+        "order_status": [
+          "CANCELLED",
+          "DELIVERED",
+          "Pending??",
+          "RETURNED",
+          "delivered"
+        ],
+        "payment_mode": [
+          "CARD",
+          "Card",
+          "Cash on Delivery",
+          "Cashh",
+          "UPI",
+          "Wallet",
+          "cod",
+          "upi"
+        ]
+      }
+    },
+    "payments": {
+      "source_file": "payments.csv",
+      "rows": 2228,
+      "columns": [
+        "payment_id",
+        "order_id",
+        "payment_ts",
+        "payment_mode",
+        "amount_paid",
+        "payment_status",
+        "gateway_ref"
+      ],
+      "blank_values_by_column": {
+        "gateway_ref": 301
+      },
+      "duplicate_key_rows": 8,
+      "duplicate_key_values": [
+        "PAY0000509",
+        "PAY0000755",
+        "PAY0001651",
+        "PAY0002000"
+      ],
+      "duplicate_key_values_redacted": false,
+      "numeric_ranges": {
+        "amount_paid": {
+          "min": -1593.0,
+          "max": 9576.0,
+          "invalid_or_blank": 0
+        }
+      },
+      "date_ranges": {
+        "payment_ts": {
+          "min": "2026-09-01 06:30:24",
+          "max": "2027-01-01 09:01:46",
+          "invalid_or_blank": 0
+        }
+      },
+      "distinct_categories": {
+        "payment_status": [
+          "FAILED",
+          "REFUNDED",
+          "SUCCESS"
+        ],
+        "payment_mode": [
+          "CARD",
+          "Card",
+          "Cash on Delivery",
+          "Cashh",
+          "UPI",
+          "Wallet",
+          "cod",
+          "upi"
+        ]
+      }
+    },
+    "customers": {
+      "source_file": "customers.csv",
+      "rows": 405,
+      "columns": [
+        "customer_id",
+        "full_name",
+        "email",
+        "phone",
+        "city",
+        "area",
+        "pincode",
+        "signup_date",
+        "loyalty_tier",
+        "is_active"
+      ],
+      "blank_values_by_column": {
+        "city": 6
+      },
+      "duplicate_key_rows": 10,
+      "duplicate_key_values": [
+        "customer_duplicate_01",
+        "customer_duplicate_02",
+        "customer_duplicate_03",
+        "customer_duplicate_04",
+        "customer_duplicate_05"
+      ],
+      "duplicate_key_values_redacted": true,
+      "numeric_ranges": {
+        "pincode": {
+          "min": 0.0,
+          "max": 560102.0,
+          "invalid_or_blank": 3
+        }
+      },
+      "date_ranges": {
+        "signup_date": {
+          "min": "2024-06-01 00:00:00",
+          "max": "2027-01-05 00:00:00",
+          "invalid_or_blank": 0
+        }
+      },
+      "distinct_categories": {
+        "loyalty_tier": [
+          "BRONZE",
+          "Bronze",
+          "Gold",
+          "Platinum",
+          "SILVER",
+          "Silver",
+          "bronze"
+        ]
+      }
+    },
+    "products": {
+      "source_file": "products.csv",
+      "rows": 152,
+      "columns": [
+        "product_id",
+        "product_name",
+        "category",
+        "sub_category",
+        "brand",
+        "mrp",
+        "cost_price",
+        "unit",
+        "is_perishable",
+        "launch_date"
+      ],
+      "blank_values_by_column": {
+        "category": 3
+      },
+      "duplicate_key_rows": 4,
+      "duplicate_key_values": [
+        "P0030",
+        "P0140"
+      ],
+      "duplicate_key_values_redacted": false,
+      "numeric_ranges": {
+        "mrp": {
+          "min": -203.0,
+          "max": 883.0,
+          "invalid_or_blank": 0
+        },
+        "cost_price": {
+          "min": 6.79,
+          "max": 631.79,
+          "invalid_or_blank": 0
+        }
+      },
+      "date_ranges": {
+        "launch_date": {
+          "min": "2023-01-03 00:00:00",
+          "max": "2025-09-20 00:00:00",
+          "invalid_or_blank": 0
+        }
+      },
+      "distinct_categories": {
+        "category": [
+          "",
+          "Dairy & Bakery",
+          "Fruits & Vegetables",
+          "Household",
+          "Personal Care",
+          "Snacks & Beverages",
+          "Staples"
+        ]
+      }
+    },
+    "stores": {
+      "source_file": "stores.csv",
+      "rows": 15,
+      "columns": [
+        "store_id",
+        "store_name",
+        "zone",
+        "area",
+        "pincode",
+        "open_date",
+        "manager_name",
+        "capacity_orders_per_day"
+      ],
+      "blank_values_by_column": {
+        "zone": 1
+      },
+      "duplicate_key_rows": 0,
+      "duplicate_key_values": [],
+      "duplicate_key_values_redacted": false,
+      "numeric_ranges": {
+        "pincode": {
+          "min": 560003.0,
+          "max": 560102.0,
+          "invalid_or_blank": 0
+        },
+        "capacity_orders_per_day": {
+          "min": 0.0,
+          "max": 600.0,
+          "invalid_or_blank": 0
+        }
+      },
+      "date_ranges": {
+        "open_date": {
+          "min": "2024-02-14 00:00:00",
+          "max": "2025-07-28 00:00:00",
+          "invalid_or_blank": 0
+        }
+      },
+      "distinct_categories": {
+        "zone": [
+          "",
+          "East",
+          "North",
+          "South",
+          "West"
+        ]
+      }
+    },
+    "orders_2026-10-01_increment": {
+      "source_file": "orders_2026-10-01_increment.csv",
+      "rows": 160,
+      "columns": [
+        "order_id",
+        "order_ts",
+        "customer_id",
+        "store_id",
+        "product_id",
+        "quantity",
+        "unit_price",
+        "discount_pct",
+        "order_amount",
+        "payment_mode",
+        "order_status",
+        "channel",
+        "delivery_minutes"
+      ],
+      "blank_values_by_column": {},
+      "duplicate_key_rows": 0,
+      "duplicate_key_values": [],
+      "duplicate_key_values_redacted": false,
+      "numeric_ranges": {
+        "quantity": {
+          "min": 1.0,
+          "max": 4.0,
+          "invalid_or_blank": 0
+        },
+        "unit_price": {
+          "min": 10.0,
+          "max": 883.0,
+          "invalid_or_blank": 0
+        },
+        "discount_pct": {
+          "min": 0.0,
+          "max": 20.0,
+          "invalid_or_blank": 0
+        },
+        "order_amount": {
+          "min": 11.0,
+          "max": 2052.0,
+          "invalid_or_blank": 0
+        },
+        "delivery_minutes": {
+          "min": 8.0,
+          "max": 34.0,
+          "invalid_or_blank": 0
+        }
+      },
+      "date_ranges": {
+        "order_ts": {
+          "min": "2026-09-01 09:38:13",
+          "max": "2026-10-01 22:33:00",
+          "invalid_or_blank": 0
+        }
+      },
+      "distinct_categories": {
+        "order_status": [
+          "DELIVERED",
+          "RETURNED"
+        ],
+        "payment_mode": [
+          "Card",
+          "Cash on Delivery",
+          "UPI",
+          "Wallet"
+        ]
+      }
+    }
+  },
+  "referential_integrity": [
+    {
+      "relationship": "orders.customer_id -> customers.customer_id",
+      "rows_checked": 2412,
+      "missing_keys": 18,
+      "unknown_keys": 0
+    },
+    {
+      "relationship": "orders.product_id -> products.product_id",
+      "rows_checked": 2412,
+      "missing_keys": 0,
+      "unknown_keys": 9
+    },
+    {
+      "relationship": "orders.store_id -> stores.store_id",
+      "rows_checked": 2412,
+      "missing_keys": 0,
+      "unknown_keys": 5
+    },
+    {
+      "relationship": "payments.order_id -> orders.order_id",
+      "rows_checked": 2228,
+      "missing_keys": 0,
+      "unknown_keys": 8
+    }
+  ],
+  "quality_issue_summary": [
+    {
+      "file": "customers.csv",
+      "quality_dimension": "consistency",
+      "severity": "WARNING",
+      "problem": "loyalty_tier casing is inconsistent",
+      "issue_count": 400
+    },
+    {
+      "file": "customers.csv",
+      "quality_dimension": "timeliness",
+      "severity": "CRITICAL",
+      "problem": "signup_date is in the future",
+      "issue_count": 3
+    },
+    {
+      "file": "customers.csv",
+      "quality_dimension": "uniqueness",
+      "severity": "CRITICAL",
+      "problem": "Duplicate customer_id",
+      "issue_count": 10
+    },
+    {
+      "file": "customers.csv",
+      "quality_dimension": "validity",
+      "severity": "WARNING",
+      "problem": "Email is missing or malformed",
+      "issue_count": 12
+    },
+    {
+      "file": "customers.csv",
+      "quality_dimension": "validity",
+      "severity": "WARNING",
+      "problem": "Phone is not a 10-digit number",
+      "issue_count": 7
+    },
+    {
+      "file": "customers.csv",
+      "quality_dimension": "validity",
+      "severity": "WARNING",
+      "problem": "Pincode is not six digits",
+      "issue_count": 3
+    },
+    {
+      "file": "orders.csv",
+      "quality_dimension": "accuracy",
+      "severity": "CRITICAL",
+      "problem": "DELIVERED order delivery time is at least 120 minutes",
+      "issue_count": 6
+    },
+    {
+      "file": "orders.csv",
+      "quality_dimension": "accuracy",
+      "severity": "CRITICAL",
+      "problem": "discount_pct is outside 0-100",
+      "issue_count": 3
+    },
+    {
+      "file": "orders.csv",
+      "quality_dimension": "accuracy",
+      "severity": "CRITICAL",
+      "problem": "order_amount does not match discounted quantity * price",
+      "issue_count": 18
+    },
+    {
+      "file": "orders.csv",
+      "quality_dimension": "accuracy",
+      "severity": "CRITICAL",
+      "problem": "quantity must be a positive number",
+      "issue_count": 10
+    },
+    {
+      "file": "orders.csv",
+      "quality_dimension": "completeness",
+      "severity": "CRITICAL",
+      "problem": "DELIVERED order has no delivery_minutes",
+      "issue_count": 8
+    },
+    {
+      "file": "orders.csv",
+      "quality_dimension": "completeness",
+      "severity": "CRITICAL",
+      "problem": "Missing required customer_id",
+      "issue_count": 18
+    },
+    {
+      "file": "orders.csv",
+      "quality_dimension": "consistency",
+      "severity": "CRITICAL",
+      "problem": "customer_id does not exist in the accepted customers dimension",
+      "issue_count": 65
+    },
+    {
+      "file": "orders.csv",
+      "quality_dimension": "consistency",
+      "severity": "CRITICAL",
+      "problem": "product_id does not exist in the accepted products dimension",
+      "issue_count": 103
+    },
+    {
+      "file": "orders.csv",
+      "quality_dimension": "consistency",
+      "severity": "CRITICAL",
+      "problem": "store_id does not exist in the accepted stores dimension",
+      "issue_count": 316
+    },
+    {
+      "file": "orders.csv",
+      "quality_dimension": "timeliness",
+      "severity": "CRITICAL",
+      "problem": "order_ts is in the future",
+      "issue_count": 5
+    },
+    {
+      "file": "orders.csv",
+      "quality_dimension": "uniqueness",
+      "severity": "CRITICAL",
+      "problem": "Duplicate order_id within this source file",
+      "issue_count": 24
+    },
+    {
+      "file": "orders.csv",
+      "quality_dimension": "validity",
+      "severity": "CRITICAL",
+      "problem": "order_status is not an allowed value",
+      "issue_count": 3
+    },
+    {
+      "file": "orders.csv",
+      "quality_dimension": "validity",
+      "severity": "CRITICAL",
+      "problem": "order_ts is missing or cannot be parsed",
+      "issue_count": 6
+    },
+    {
+      "file": "orders.csv",
+      "quality_dimension": "validity",
+      "severity": "CRITICAL",
+      "problem": "payment_mode is not an allowed value",
+      "issue_count": 2
+    },
+    {
+      "file": "orders_2026-10-01_increment.csv",
+      "quality_dimension": "consistency",
+      "severity": "CRITICAL",
+      "problem": "customer_id does not exist in the accepted customers dimension",
+      "issue_count": 2
+    },
+    {
+      "file": "orders_2026-10-01_increment.csv",
+      "quality_dimension": "consistency",
+      "severity": "CRITICAL",
+      "problem": "product_id does not exist in the accepted products dimension",
+      "issue_count": 8
+    },
+    {
+      "file": "orders_2026-10-01_increment.csv",
+      "quality_dimension": "consistency",
+      "severity": "CRITICAL",
+      "problem": "store_id does not exist in the accepted stores dimension",
+      "issue_count": 13
+    },
+    {
+      "file": "orders_2026-10-01_increment.csv",
+      "quality_dimension": "timeliness",
+      "severity": "WARNING",
+      "problem": "Latest order is more than one day old",
+      "issue_count": 160
+    },
+    {
+      "file": "payments.csv",
+      "quality_dimension": "accuracy",
+      "severity": "CRITICAL",
+      "problem": "amount_paid is missing or negative",
+      "issue_count": 6
+    },
+    {
+      "file": "payments.csv",
+      "quality_dimension": "consistency",
+      "severity": "CRITICAL",
+      "problem": "Payment references an unknown order_id",
+      "issue_count": 8
+    },
+    {
+      "file": "payments.csv",
+      "quality_dimension": "consistency",
+      "severity": "CRITICAL",
+      "problem": "SUCCESS payment amount differs from its order amount",
+      "issue_count": 14
+    },
+    {
+      "file": "payments.csv",
+      "quality_dimension": "timeliness",
+      "severity": "CRITICAL",
+      "problem": "payment_ts is in the future",
+      "issue_count": 5
+    },
+    {
+      "file": "payments.csv",
+      "quality_dimension": "uniqueness",
+      "severity": "CRITICAL",
+      "problem": "Duplicate payment_id",
+      "issue_count": 8
+    },
+    {
+      "file": "payments.csv",
+      "quality_dimension": "validity",
+      "severity": "CRITICAL",
+      "problem": "payment_mode is not an allowed value",
+      "issue_count": 2
+    },
+    {
+      "file": "products.csv",
+      "quality_dimension": "accuracy",
+      "severity": "CRITICAL",
+      "problem": "mrp is missing or not positive",
+      "issue_count": 1
+    },
+    {
+      "file": "products.csv",
+      "quality_dimension": "accuracy",
+      "severity": "WARNING",
+      "problem": "cost_price exceeds mrp",
+      "issue_count": 5
+    },
+    {
+      "file": "products.csv",
+      "quality_dimension": "completeness",
+      "severity": "CRITICAL",
+      "problem": "product_id or category is missing",
+      "issue_count": 3
+    },
+    {
+      "file": "products.csv",
+      "quality_dimension": "uniqueness",
+      "severity": "CRITICAL",
+      "problem": "Duplicate product_id",
+      "issue_count": 4
+    },
+    {
+      "file": "stores.csv",
+      "quality_dimension": "accuracy",
+      "severity": "CRITICAL",
+      "problem": "Store capacity is missing or not positive",
+      "issue_count": 1
+    },
+    {
+      "file": "stores.csv",
+      "quality_dimension": "completeness",
+      "severity": "CRITICAL",
+      "problem": "store_id, store_name, or zone is missing",
+      "issue_count": 1
+    }
+  ]
+}
